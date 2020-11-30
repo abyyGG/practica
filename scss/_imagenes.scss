@@ -1,0 +1,16 @@
+@mixin tamañoImagenGaleria {
+    width: 400px;
+    height: 220px;
+}
+@mixin tamañoImagenPresentacion {
+    width: 700px;
+    height: 400px;
+}
+
+.second-container img,.third-container img{
+    @include tamañoImagenGaleria;
+}
+
+.first-container img, .third-container img{
+    @include tamañoImagenPresentacion;
+}

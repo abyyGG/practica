@@ -1,0 +1,16 @@
+article button{
+    padding: 15px;
+    border: 1px solid $azulMarino;
+    background-color: transparent;
+    width: 200px;
+    border-radius: 10px;
+    font-size: medium;
+    color:$azulMarino;
+}
+article button:hover{
+    cursor: pointer;
+}
+.second-container button{
+   
+    margin:30px auto auto auto;
+}

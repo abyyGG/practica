@@ -1,0 +1,22 @@
+article{
+    display: grid;
+    gap:20px;
+    padding-bottom:50px;
+}
+.first-container{
+    grid-template-columns: 1fr 1fr;
+    .first-container div{
+        grid-column: 1;
+    }
+    img{
+        grid-column: 2;
+        justify-self: end;
+    }
+}
+.second-container div{
+    display: flex;
+    justify-content: space-around;
+}
+.third-container{
+    grid-template-columns:repeat(2,1fr);
+}

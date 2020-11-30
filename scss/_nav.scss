@@ -1,0 +1,18 @@
+nav{
+    background-color:$azulMarino;
+    padding:$separacion;
+}
+
+nav{
+    ul{
+        list-style: none;
+       @extend %noBorderPadding;
+       text-align: center;
+    }
+}
+.navbar{
+    li{
+        margin: 40px;
+        display: inline;
+    }
+}

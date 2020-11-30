@@ -1,0 +1,19 @@
+@import './global';
+@import './fuentes';
+@import './imagenes';
+@import './nav';
+@import './containers';
+@import './button';
+@import './footer';
+
+body{
+    @extend %noBorderPadding;
+}
+header{
+    background-color:$azulMarino;
+    padding: $separacion;
+    border-bottom: 1px solid $GrisClaro;
+}
+.main-container{
+    padding: $separacion;
+}

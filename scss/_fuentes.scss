@@ -1,0 +1,32 @@
+@mixin colorFuente($propiedad) {
+    color:$propiedad;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:$fuenteTitulo;
+    text-transform: uppercase;
+    @include colorFuente($amarillo);
+}
+h1{
+    text-align: center;
+    color: $amarillo;
+    margin: 0;
+}
+.second-container h2{
+    text-align:center;
+}
+body{
+    p,a,button{
+        font-family:$fuenteTexto;
+    }
+    a{
+        color:$GrisClaro;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    a:hover{
+        color:$amarillo;
+    }
+    p{
+        color:$texto;
+    }
+}
